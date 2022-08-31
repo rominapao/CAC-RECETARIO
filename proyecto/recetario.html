@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/fotocomidas.ico">
+    <title>Recetario N.E.R.</title>
+</head>
+
+<body>
+
+    <head>
+        <H1 id="Titulo">RECETARIO N.E.R.
+        <input type="search" name="Buscar" placeholder="Buscar">
+        </H1>
+        <style>
+        body {
+            background-image: url("imagenes/fondopantalla.JPG");
+            opacity: 0,0,100;
+        }
+    </style>
+    </head>
+    <br>
+    <br>
+    <main>
+        <NAV>
+            <a href="Paginacomidas.html">
+            <img src="imagenes/fotocomidas.JPG" alt="comidas" width="350" height="180">
+        </a>
+        <a href="paginasinguten">    
+        <img src="imagenes/fotosingluten.JPG" alt="singluten" width="350" height="180">
+    </a>
+    <a href="paginapostres">
+            <img src="imagenes/fotopostres.JPG" alt="postres" width="350" height="180">
+        </a>
+            <h1>~ Comidas ricas y fáciles ~</h1>
+
+            <h2> Suscribite a nuestras novedades:</h2>
+
+            <form action="" method="GET">
+                <label>
+                    <input type="text" name="NombreyApellido" maxlength="50" placeholder="Ingrese su nombre y apellido" width="300">
+                </label>
+
+                <label for="Sexo"></label>
+                <select id="Sexo" name="Sexo">
+                    <option value=""></option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="X">X</option>
+                </select>
+                </label>
+
+                <label>
+                    <input type="number" name="Edad" min="0" placeholder="Edad">
+                </label>
+            </form>
+            <form>
+                <label>
+                    <input id="E-mail" name="Email" placeholder="Ingrese su e-mail">
+                </label>
+                <label>
+                    <input id="Localidad" name="Localidad" placeholder="Ingrese su localidad">
+                </label>
+                
+                    <label>
+                        <input type="checkbox" name="recetasvegetarianas" value="recetasvegetarianas">
+                        Quiero recibir recetas vegetarianas
+                        </label>
+                </fieldset>
+                <input type="submit" value="ENVIAR">
+            </form>
+        </NAV>
+    </main>
+
+    <br>
+    <br>
+    <footer>
+        Equipo Codo a Codo - 2022
+    </footer>
+
+</body>
+
+</html>
