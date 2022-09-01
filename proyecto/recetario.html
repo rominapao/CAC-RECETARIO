@@ -10,39 +10,66 @@
 
 <body>
 
-    <head>
-        <H1 id="Titulo">RECETARIO N.E.R.
-        <input type="search" name="Buscar" placeholder="Buscar">
+    <header>
+        <H1 id="Titulo"> RECETARIO N.E.R.
+            <input type="search" name="Buscar" placeholder="Buscar">
         </H1>
         <style>
-        body {
-            background-image: url("imagenes/fondopantalla.JPG");
-        }
-    </style>
-    </head>
+            a {
+                padding: 20px;
+                margin: 20px;
+                border: 20px;
+            }
+
+            body {
+                background-image: url("imagenes/fondopantalla.JPG");
+            }
+
+            img {
+
+                width: 350px;
+                height: 180 px;
+                border-radius: 10px;
+                /* box-shadow: 10px 10px 10px; */
+
+            }
+        </style>
+    </header>
     <br>
     <br>
     <main>
         <NAV>
             <a href="Paginacomidas.html">
-            <img src="imagenes/fotocomidas.JPG" alt="comidas" width="350" height="180">
-        </a>
-        <a href="paginasinguten">    
-        <img src="imagenes/fotosingluten.JPG" alt="singluten" width="350" height="180">
-    </a>
-    <a href="paginapostres">
-            <img src="imagenes/fotopostres.JPG" alt="postres" width="350" height="180">
-        </a>
-            <h1>~ Comidas ricas y fáciles ~</h1>
+                <img src="imagenes/fotocomidas.JPG" alt="comidas" width="350" height="180">
+            </a>
+
+
+            <a href="paginasinguten">
+                <img src="imagenes/fotosingluten.JPG" alt="singluten" width="350" height="180">
+            </a>
+
+            <a href="paginapostres">
+                <img src="imagenes/fotopostres.JPG" alt="postres" width="350" height="180">
+            </a>
+
+            <br>
+            <br>
+
+            <h1>
+                <p align="center">~ Comidas ricas y fáciles ~</p>
+            </h1>
+            <br>
 
             <h2> Suscribite a nuestras novedades:</h2>
 
             <form action="" method="GET">
-                <label>
-                    <input type="text" name="NombreyApellido" maxlength="50" placeholder="Ingrese su nombre y apellido" width="300">
+                <label>Nombre y Apellido
+                    <input type="text" name="NombreyApellido" maxlength="50" placeholder="Ingrese su nombre y apellido"
+                        width="300">
                 </label>
-
-                <label for="Sexo"></label>
+            </form>
+            <form>
+                <label for="Sexo">Sexo</label>
                 <select id="Sexo" name="Sexo">
                     <option value=""></option>
                     <option value="Femenino">Femenino</option>
@@ -50,23 +77,29 @@
                     <option value="X">X</option>
                 </select>
                 </label>
-
-                <label>
+            </form>
+            <form>
+                <label> Edad
                     <input type="number" name="Edad" min="0" placeholder="Edad">
                 </label>
             </form>
             <form>
-                <label>
+            
+                <label>E-mail
                     <input id="E-mail" name="Email" placeholder="Ingrese su e-mail">
                 </label>
-                <label>
+            </form>
+            <form>
+                <label> Localidad
                     <input id="Localidad" name="Localidad" placeholder="Ingrese su localidad">
                 </label>
-                
-                    <label>
-                        <input type="checkbox" name="recetasvegetarianas" value="recetasvegetarianas">
-                        Quiero recibir recetas vegetarianas
-                        </label>
+            </form>
+            <form>
+                <label>
+                    <input type="checkbox" name="recetasvegetarianas" value="recetasvegetarianas">
+                    Quiero recibir recetas vegetarianas
+                </label>
+            </form>
                 </fieldset>
                 <input type="submit" value="ENVIAR">
             </form>
