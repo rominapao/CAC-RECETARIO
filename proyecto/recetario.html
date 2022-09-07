@@ -5,63 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagenes/fotocomidas.ico">
+
     <title>Recetario N.E.R.</title>
 
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
 </head>
 
 <body>
 
     <header>
-        <H1 id="Titulo"> RECETARIO N.E.R.
-            <input type="search" name="Buscar" placeholder="Buscar">
+        <H1 id="Titulo"> Recetario N.E.R.
+            <div class="Buscar">
+                <!––<input types="text" placehololder="Buscar" required>
+
+            </div>
         </H1>
-        <style>
-            header {
-                animation-name: Recetarioner;
-                animation-duration: 4s;
-                animation-delay: 10;
-                position: relative;
-            }
 
-            @keyframes Recetarioner {
-
-                50% {
-                    margin-left: 25%;
-                    width: 150%;
-                }
-
-            }
-
-            a {
-                padding: 20px;
-                margin: 20px;
-                border: 20px;
-            }
-
-            body {
-                background-image: url("imagenes/fondopantalla.JPG");
-            }
-
-            img {
-
-                width: 350px;
-                height: 180 px;
-                border-radius: 10px;
-                /* box-shadow: 10px 10px 10px; */
-
-            }
-
-            frame {
-                border-radius: 50px;
-            }
-
-            footer {
-                text-align: center;
-            }
-        </style>
     </header>
     <br>
     <br>
+
     <main>
         <NAV>
             <a href="Paginacomidas.html">
@@ -77,62 +41,80 @@
                 <img src="imagenes/fotopostres.JPG" alt="postres" width="350" height="180">
             </a>
 
-            <br>
-            <br>
 
             <h1>
-                <p align="center">~ Comidas ricas y fáciles ~</p>
+                <p align="center" id="centro">
+                    <link rel="stylesheet" href="estilos.css">
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+                    ~ Comidas ricas y fáciles ~</p>
+
             </h1>
             <br>
+            <br>
+            <br>
+            <br>
+            <h2 id="novedades" margin: 5px> Suscribite a nuestras novedades:</h2>
 
-            <h2> Suscribite a nuestras novedades:</h2>
-
-            <form action="" method="GET">
-                <label>Nombre y Apellido
-                    <input type="text" name="NombreyApellido" maxlength="50" placeholder="Ingrese su nombre y apellido"
-                        width="300">
-                </label>
+            <form action="" method="GET" <link rel="stylesheet" href="estilos.css">
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+                <li>
+                    <label>Nombre y Apellido
+                        <input type="text" name="NombreyApellido" maxlength="50"
+                            placeholder="Ingrese su nombre y apellido" width="300">
+                    </label>
+                </li>
             </form>
             <form>
-                <label for="Sexo">Sexo</label>
-                <select id="Sexo" name="Sexo">
-                    <option value=""></option>
-                    <option value="Femenino">Femenino</option>
-                    <option value="Masculino">Masculino</option>
-                    <option value="X">X</option>
-                </select>
-                </label>
+                <li>
+                    <label for="Sexo">Sexo</label>
+                    <select id="Sexo" name="Sexo">
+                        <option value=""></option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="X">X</option>
+                    </select>
+                    </label>
+                </li>
             </form>
             <form>
-                <label> Edad
-                    <input type="number" name="Edad" min="0" placeholder="Edad">
-                </label>
+                <li>
+                    <label> Edad
+                        <input type="number" name="Edad" min="0" placeholder="Edad">
+                    </label>
+                </li>
             </form>
             <form>
-
-                <label>E-mail
-                    <input id="E-mail" name="Email" placeholder="Ingrese su e-mail">
-                </label>
+                <li>
+                    <label>E-mail
+                        <input id="E-mail" name="Email" placeholder="Ingrese su e-mail">
+                    </label>
+                </li>
             </form>
             <form>
-                <label> Localidad
-                    <input id="Localidad" name="Localidad" placeholder="Ingrese su localidad">
-                </label>
+                <li>
+                    <label> Localidad
+                        <input id="Localidad" name="Localidad" placeholder="Ingrese su localidad">
+                    </label>
+                </li>
             </form>
+            </li>
             <form>
                 <label>
                     <input type="checkbox" name="recetasvegetarianas" value="recetasvegetarianas">
                     Quiero recibir recetas vegetarianas
                 </label>
-            </form>
-            </fieldset>
-            <input type="submit" value="ENVIAR">
+            
+                </fieldset>
+                <input type="submit" value="ENVIAR" id="boton">
             </form>
         </NAV>
     </main>
-
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    
     <footer>
         <h4><i>Equipo Codo a Codo - 2022</i></h4>
         <iframe width="1000" height="50" src="https://www.youtube.com/embed/WZDho9m5USI"
