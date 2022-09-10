@@ -1,11 +1,18 @@
+HTML{
+    height: 100%;
+}
 body{
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
     flex-wrap: wrap;
 }
 footer{
-    height: 50px;
+    margin-top: AUTO;
+    height: 20px;
     background-color: aqua;
     align-self: flex-end;
+    text-align: center;
+    position: center;
 
 }
