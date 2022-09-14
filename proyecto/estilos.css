@@ -1,11 +1,16 @@
 * { /* Selector Universal*/
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    height:100%;
     
 }
 
 header, main, footer{
-    padding: 15 px; 
+    padding: 10 px; 
 }
 
 header{
@@ -16,99 +21,119 @@ header{
     position: relative;
     font-family: 'Pacifico', serif;
     font-size: 20px;
-
 }
 
 @keyframes Recetarioner {
 
     50% {
         margin-left: 25%;
-        width: 150%;
+        width: 100%;
     }
 
 }
 
+.buscar{
+    position: absolute;
+}
+
 a {    
-    padding: 20px;
-    margin: 20px;
+    padding: 5px;
+    margin: 5px;
     border: 20px;
 }
 
 body {
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
     background-image: url("imagenes/fondopantalla.JPG");
+    min-width: 100vh;
+    margin: 0 auto;
 }
+
+
 
 #centro{
     position: absolute;
-width: 500px;
-height: 100px;
-left: 390px;
-top: 370px;
-
-font-family: 'Pacifico';
-font-style: normal;
-font-weight: 150;
-font-size: 40px;
-line-height: 50px;
-
-color: #000000;
+    width: 500px;
+    height: 100px;
+    left: 390px;
+    top: 370px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 150;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
 }
 
 img {
     width: 350px;
     height: 180 px;
-    border-radius: 10px;
+    border-radius: 5px;
+    position: center;
     /* box-shadow: 10px 10px 10px; */
 }
+
+#comidas{
+position: right;
+
+}
+
 
 #novedades{
     padding:30px; 
     position: left;
-width: 500px;
-height: 100px;
-left: 390px;
-top: 50px;
-
-font-family: 'Pacifico';
-font-style: normal;
-font-weight: 150;
-font-size: 25px;
-line-height: 50px;
-
-color: #000000;
+    margin-top: 50px ;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 50px;
+    color: #000000;
 }
 
 label{
     padding: 10px;
     position: center;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 150;
-font-size: 15px;
-line-height: 50px;
-width: 384px;
-height: 14px;
-left: 83px;
-top: 757px;
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-li{
-    padding:15px;
+ul{
+    list-style:none;
+}
+
+
+    
+
+.listas{
+    display: inline-block;
+    padding: 20px;
 }
 
 #boton{
     padding:3px;
-    width: 120px;
-    border-block-color: black;
-height: 25px;
-left: 500px;
-top: 500px;
-}
+    width: 80px;
+    border-color: rgb(145, 145, 167);
+    height: 25px;
+    left: 500px;
+    top: 500px;
 
-
+    }
 
 footer {
+    align-self: flex-end;
     text-align: center;
     position: center;
-
+    bottom: 0px;
+    width: 2000px;   
+    font-family: 'Roboto';
+    margin-top: 60px;
 }
+
+
+
+
