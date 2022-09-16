@@ -10,6 +10,10 @@ html {
     
 }
 
+.link{
+    color: white;
+}
+
 body {
     display: flex;
     flex-wrap: wrap;
@@ -41,13 +45,22 @@ padding:10px;
 
 }
 
+.link:hover{
+color:white;
+
+}
+
 img {
     border-radius: 50px;
     width:400px;
     height: 200px;
     padding: 20px;
     margin: 20px;  
+    box-shadow: 2px 2px 5px rgb(75, 71, 71);
 }
+
+
+
 
 #centro{
     position: absolute;
@@ -68,13 +81,20 @@ img {
     text-align: center;
     padding: 30px;
     margin-top:50px; 
-        margin-bottom: 0px ;
+    margin-bottom: 0px ;
     font-family: 'Pacifico';
     font-style: normal;
     font-weight: 100;
     font-size: 25px;
     line-height: 50px;
     color: #000000;
+}
+
+#recetas{
+    font-family: 'Pacifico';  
+    padding: 20px;  
+    margin-top: 5px; 
+    margin-bottom: 5px;
 }
 
 label{
@@ -102,7 +122,8 @@ ul{
     height: 25px;
     left: 500px;
     top: 500px;
-}
+
+    }
 
 footer {
     align-self: flex-end;
