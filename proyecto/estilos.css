@@ -7,7 +7,8 @@
 
 html {
     height:100%;
-    
+    weight: 100%;
+    position: relative;
 }
 
 
@@ -48,11 +49,12 @@ img {
 
 #persona  {
     width: 500px;
-    height: 250px;
-    position: absolute;
-    top: 80px;
+    height: 370px;
+    position: relative;
+    top: 0px;
     right: 370px;
     left: 390px;
+    bottom: 5px;
     padding: 0px;
 
     /* animation: ; */
@@ -76,11 +78,13 @@ img {
   }
 
 #centro{
-    position: absolute;
+    position: relative;
     width: 500px;
-    height: 100px;
+    height: 50px;
     left: 390px;
-    top: 370px;
+    right: 370px;
+    top: 10px;
+    bottom: 3px;
     font-family: 'Pacifico';
     font-style: normal;
     font-weight: 150;
@@ -94,8 +98,8 @@ img {
 
 #novedades{
     text-align: center;
-    padding: 30px;
-    margin-top:50px; 
+    padding: 5px;
+    margin-top:20px; 
     margin-bottom: 0px ;
     font-family: 'Pacifico';
     font-style: normal;
@@ -151,3 +155,7 @@ footer {
     margin-top: 60px;
     background-color: rgb(133, 129, 129);
 }
+
+
+
+
