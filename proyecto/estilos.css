@@ -10,9 +10,7 @@ html {
     
 }
 
-.link{
-    color: white;
-}
+
 
 body {
     display: flex;
@@ -27,27 +25,15 @@ header{
 align-self: flex-end;
 background-color: rgb(133, 129, 129);
 width: 1500px;
-animation-name: Recetarioner;
-animation-duration: 4s;
-animation-delay: 10;
 position: relative;
 font-family: 'Roboto', serif;
 font-size: 20px;
 padding:10px; 
 }
 
-@keyframes Recetarioner {
-
-50% {
-    margin-left: 25%;
-    width: 100%;
-}
-
-}
-
-.link:hover{
-color:white;
-
+a{
+    color: black;
+    
 }
 
 img {
@@ -60,7 +46,34 @@ img {
 }
 
 
+#persona  {
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 470px;
+    right: 370px;
+    left: 390px;
+    padding: 0px;
 
+    /* animation: ; */
+    animation-name: movimiento;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+  }
+
+  @keyframes movimiento{
+      0% {
+          transform: scale(1);
+      }
+    40% {
+        transform: scale(0.5);
+    }
+    60% {
+        transform: scale(1.2);
+    }
+  
+
+  }
 
 #centro{
     position: absolute;
@@ -77,6 +90,8 @@ img {
     text-align: center;
 }
 
+   
+
 #novedades{
     text-align: center;
     padding: 30px;
@@ -88,6 +103,7 @@ img {
     font-size: 25px;
     line-height: 50px;
     color: #000000;
+    top: 500px;
 }
 
 #recetas{
@@ -135,6 +151,3 @@ footer {
     margin-top: 60px;
     background-color: rgb(133, 129, 129);
 }
-
-
-
