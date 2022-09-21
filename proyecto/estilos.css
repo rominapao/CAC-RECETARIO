@@ -2,39 +2,41 @@
     margin: 10;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 html {
     height:100%;
-    weight: 100%;
-    position: relative;
+    width: 100%;
 }
 
-
-
 body {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100px;
-    min-width: 100vh;
-    margin: 0 auto;
     background-image: url("imagenes/fondopantalla.JPG"); 
 }
 
+.contenedor{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main{
+    width: 100%;
+}
+
 header{
-align-self: flex-end;
-background-color: rgb(133, 129, 129);
-width: 1500px;
+background-color: grey;
+width: 100%;
 position: relative;
 font-family: 'Roboto', serif;
+color: black;
 font-size: 20px;
 padding:10px; 
 }
 
 a{
-    color: black;
-    
+    color: white; 
+    letter
 }
 
 img {
@@ -46,17 +48,17 @@ img {
     box-shadow: 2px 2px 5px rgb(75, 71, 71);
 }
 
-
 #persona  {
-    width: 500px;
-    height: 370px;
-    position: relative;
-    top: 0px;
+   
+    width: 300px;
     right: 370px;
     left: 390px;
     bottom: 5px;
     padding: 0px;
-
+    margin-top:20px; 
+    margin-bottom: 0px ;
+    top: 500px;
+    
     /* animation: ; */
     animation-name: movimiento;
     animation-duration: 2s;
@@ -73,28 +75,32 @@ img {
     60% {
         transform: scale(1.2);
     }
-  
-
   }
 
+  #imagencentro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ #imagencentro>img {
+    max-width: 50%;
+    border: 2px solid none;
+ }
+
 #centro{
-    position: relative;
-    width: 500px;
-    height: 50px;
-    left: 390px;
-    right: 370px;
-    top: 10px;
-    bottom: 3px;
+    text-align: center;
+    padding: 5px;
+    margin-top:20px; 
+    margin-bottom: 0px ;
     font-family: 'Pacifico';
     font-style: normal;
-    font-weight: 150;
-    font-size: 40px;
+    font-weight: 100;
+    font-size: 35px;
     line-height: 50px;
-    color: rgb(61, 60, 60);
-    text-align: center;
+    color: #000000;
+    top: 500px;
 }
-
-   
 
 #novedades{
     text-align: center;
@@ -133,7 +139,6 @@ img {
 
 
 #Ingredientes{
-    
     position: relative;
     width: 175px;
     height: 210px;
@@ -150,7 +155,6 @@ img {
 }
 
 #albahaca{
-    
     position: relative;
     width: 175px;
     height: 170px;
@@ -168,7 +172,6 @@ img {
 
 
 #salsa1{
-    
     position: relative;
     width: 175px;
     height: 190px;
@@ -182,11 +185,9 @@ img {
     font-family: Roboto;
     font-size: 4mm;
     border: 2px solid black;
-
 }
 
 #varios{
-    
     position: relative;
     width: 175px;
     height: 115px;
@@ -216,7 +217,6 @@ img {
     font-family: Roboto;
     font-size: 4mm;
     border: 2px solid black;
-    
 }
 
 #pasoapaso2{
@@ -233,7 +233,6 @@ img {
     font-family: Roboto;
     font-size: 4mm;
     border: 2px solid black;
-    
 }
 
 #salsa2{
@@ -266,7 +265,6 @@ img {
     font-family: Roboto;
     font-size: 4mm;
     border: 2px solid black;
-    
 }
 
 #presentacion2{
@@ -283,7 +281,6 @@ img {
     font-family: Roboto;
     font-size: 4mm;
     border: 2px solid black;
-    
 }
 
 label{
@@ -301,13 +298,13 @@ ul{
     margin-left: 20px;
     top: 20px;
     left: 50px;
-    }
+}
 
 li{
     padding: 3px;
     text-align: left;
-   
 }
+
 .listas{
     display: inline-block;
     padding: 2px;
@@ -320,20 +317,16 @@ li{
     height: 25px;
     left: 500px;
     top: 500px;
-
-    }
+ }
 
 footer {
     align-self: flex-end;
     text-align: center;
     position: center;
     bottom: 0px;
-    width: 2000px;   
+    width: 100%;   
+    padding: 5px;
     font-family: 'Roboto';
     margin-top: 60px;
     background-color: rgb(133, 129, 129);
 }
-
-
-
-
