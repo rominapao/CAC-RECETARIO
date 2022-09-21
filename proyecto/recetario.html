@@ -14,128 +14,121 @@
 </head>
 
 <body>
-    <header>
+    <div class="contenedor">
+        <header>
 
 
-        <H1 id="Titulo"> Recetario C.A.C.
-        </H1>
+            <H1 id="Titulo"> Recetario C.A.C.
+            </H1>
 
-    </header>
-    <br>
-    <br>
+        </header>
+        <br>
+        <br>
 
-    <main>
-        <NAV>
+        <main>
+            <NAV>
 
-            <a href="Paginacomidas.html" id="comidas">
-                <img src="imagenes/fotocomidas.JPG" alt="comidas" id="comidas">
-            </a>
-            <a href="sinGluten/sinGluten.html" id="gluten">
-                <img src="imagenes/fotosingluten.JPG" alt="singluten" id="singluten">
-            </a>
-            <a href="postres/paginaPostres.html" id="postres">
-                <img src="imagenes/fotopostres.JPG" alt="postres" id="postres">
-            </a>
+                <a href="Paginacomidas.html" id="comidas">
+                    <img src="imagenes/fotocomidas.JPG" alt="comidas" id="comidas">
+                </a>
+                <a href="paginasinguten" id="gluten">
+                    <img src="imagenes/fotosingluten.JPG" alt="singluten" id="singluten">
+                </a>
+                <a href="paginapostres" id="postres">
+                    <img src="imagenes/fotopostres.JPG" alt="postres" id="postres">
+                </a>
 
-            <h2>
-                <p id="centro">
+                <h2>
+                    <p id="centro">
+                        <link rel="stylesheet" href="estilos.css">
+                        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+                        ~ Comidas ricas y fáciles ~</p>
+                </h2>
+                <div id="imagencentro">
+                    <img src="./imagenes/personacocinando.JPG" alt="personacocinando" id="persona">
+                </div>
+                <h2 id="novedades" margin: 5px> Suscribite a nuestras novedades y recibí primero nuestra información:
+                </h2>
+                <form action="" method="GET">
                     <link rel="stylesheet" href="estilos.css">
-                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
-                    ~ Comidas ricas y fáciles ~</p>
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+                    <ul>
+                        <li class="listas"><i class="fa-solid fa-user"></i>
+                            <label>Nombre y Apellido
+                                <input type="text" name="NombreyApellido" maxlength="50"
+                                    placeholder="Ingrese su nombre y apellido" width="300">
 
-            </h2>
-          
+                            </label>
+                        </li>
+                    </ul>
+                </form>
+                <form>
+                    <ul>
+                        <li class="listas"><i class="fa-solid fa-genderless"></i>
 
-            <div id="imagencentro">
-                <img src="imagenes/personacocinando.JPG" alt="personacocinando" id="persona">
-               
-                 
-            </div>
-          
-            
-            <h2 id="novedades" margin: 5px> Suscribite a nuestras novedades y recibí primero nuestra información:</h2>
-            <form action="" method="GET">
-                <link rel="stylesheet" href="estilos.css">
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-                <ul>
-                    <li class="listas"><i class="fa-solid fa-user"></i>
-                        <label>Nombre y Apellido
-                            <input type="text" name="NombreyApellido" maxlength="50"
-                                placeholder="Ingrese su nombre y apellido" width="300">
+                            <label for="Sexo">Sexo
+                                <select id="Sexo" name="Sexo">
+                                    <option value=""></option>
+                                    <option value="Femenino">Femenino</option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="X">X</option>
+                                </select>
+                            </label>
+                        </li>
+                    </ul>
+                </form>
+                <form>
+                    <ul>
+                        <li class="listas"><i class="fa-solid fa-hashtag"></i>
+                            <label> Edad
+                                <input type="number" name="Edad" min="0" placeholder="Edad">
+                            </label>
+                        </li>
+                    </ul>
+                </form>
+                <form>
+                    <ul>
+                        <li class="listas"><i class="fa-solid fa-envelope"></i>
+                            <label>E-mail
+                                <input id="E-mail" name="Email" placeholder="Ingrese su e-mail">
+                            </label>
+                        </li>
+                    </ul>
+                </form>
+                <form>
+                    <ul>
+                        <li class="listas"><i class="fa-solid fa-location-dot"></i>
+                            <label class="material-symbols-outlined">Localidad
+                                <input id="Localidad" name="Localidad" placeholder="Ingrese su localidad">
+                            </label>
+                        </li>
+                    </ul>
+                </form>
+                <form>
+                    <label>
+                        <input type="checkbox" name="recetasvegetarianas" value="recetasvegetarianas">
+                        Quiero recibir recetas vegetarianas
+                    </label>
+                    <input type="submit" value="ENVIAR" id="boton">
+                </form>
 
-                        </label>
-                    </li>
-                </ul>
-            </form>
-            <form>
-                <ul>
-                    <li class="listas"><i class="fa-solid fa-genderless"></i>
+            </NAV>
+        </main>
 
-                        <label for="Sexo">Sexo
-                            <select id="Sexo" name="Sexo">
-                                <option value=""></option>
-                                <option value="Femenino">Femenino</option>
-                                <option value="Masculino">Masculino</option>
-                                <option value="X">X</option>
-                            </select>
-                        </label>
-                    </li>
-                </ul>
-            </form>
-            <form>
-                <ul>
-                    <li class="listas"><i class="fa-solid fa-hashtag"></i>
-                        <label> Edad
-                            <input type="number" name="Edad" min="0" placeholder="Edad">
-                        </label>
-                    </li>
-                </ul>
-            </form>
-            <form>
-                <ul>
-                    <li class="listas"><i class="fa-solid fa-envelope"></i>
-                        <label>E-mail
-                            <input id="E-mail" name="Email" placeholder="Ingrese su e-mail">
-                        </label>
-                    </li>
-                </ul>
-            </form>
-            <form>
-                <ul>
-                    <li class="listas"><i class="fa-solid fa-location-dot"></i>
-                        <label class="material-symbols-outlined">Localidad
-                            <input id="Localidad" name="Localidad" placeholder="Ingrese su localidad">
-                        </label>
-                    </li>
-                </ul>
-            </form>
-            <form>
-                <label>
-                    <input type="checkbox" name="recetasvegetarianas" value="recetasvegetarianas">
-                    Quiero recibir recetas vegetarianas
-                </label>
-                <input type="submit" value="ENVIAR" id="boton">
-            </form>
-
-        </NAV>
-    </main>
-
-
-
-    <footer align="center">
-        <h4><i>Equipo Codo a Codo - 2022</i></h4>
-        <iframe width="250" height="50" src="https://www.youtube.com/embed/WZDho9m5USI"
-            title="Bienvenido a Codo a Codo 4.0" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen target="_blank"></iframe>
-        <h5><i>
-                <marquee>
-                    </p>Diseñado por Romina Paganini y Erika Lois
-            </i></h5>
-        </marquee>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    </footer>
-
+        <footer align="center">
+            <h4><i>Equipo Codo a Codo - 2022</i></h4>
+            <iframe width="250" height="50" src="https://www.youtube.com/embed/WZDho9m5USI"
+                title="Bienvenido a Codo a Codo 4.0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen target="_blank"></iframe>
+            <h5><i>
+                    <marquee>
+                        </p>Diseñado por Romina Paganini y Erika Lois
+                </i></h5>
+            </marquee>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        </footer>
+    </div>
 </body>
 
 </html>
