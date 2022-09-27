@@ -8,10 +8,11 @@
 html {
     height:100%;
     width: 100%;
-   
+    overflow: -moz-hidden-unscrollable;
 }
 
 body {
+    
     background-image: url("imagenes/fondopantalla.JPG"); 
 }
 
@@ -19,7 +20,7 @@ body {
     width: 100%;
     min-width: 100%;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .main{
@@ -125,14 +126,7 @@ img {
     margin-bottom: 5px;
 }
 
-#pastaconsalmon{
-    font-family: 'Pacifico';  
-    padding: 30px;  
-    margin-top: 5px; 
-    margin-bottom: 5px;
-}
-
-#sopadetomates{
+#tituloreceta{
     font-family: 'Pacifico';  
     padding: 20px;  
     margin-top: 5px; 
@@ -142,12 +136,12 @@ img {
 #Ingredientes{
     position: relative;
     width: 175px;
-    height: 210px;
+    height: 500px;
     padding: 15px 20px 35px 20px;
     left: 25px;
     right: 50px;
     top: 1px;
-    bottom: 5px;
+    bottom: 50px;
     background: #D9D9D9;
     border-radius: 10px;
     font-family: Roboto;
@@ -155,47 +149,140 @@ img {
     border: 2px solid black;
 }
 
+#Ingredientes2{
+    position: relative;
+    width: 250px;
+    height: 710px;
+    padding: 15px 20px 35px 20px;
+    left: 25px;
+    right: 50px;
+    top: 1px;
+    bottom: 50px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#Ingredientes3{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    padding: 15px 20px 35px 20px;
+    left: 25px;
+    right: 50px;
+    top: 1px;
+    bottom: 50px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#Ingredientes4{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    padding: 15px 20px 35px 20px;
+    left: 25px;
+    right: 50px;
+    top: 1px;
+    bottom: 50px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#Ingredientes5{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    padding: 15px 20px 35px 20px;
+    left: 25px;
+    right: 50px;
+    top: 1px;
+    bottom: 50px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#Ingredientes6{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    padding: 15px 20px 35px 20px;
+    left: 25px;
+    right: 50px;
+    top: 1px;
+    bottom: 50px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#Ingredientes7{
+    position: relative;
+    width: 200px;
+    height: 330px;
+    padding: 15px 20px 35px 20px;
+    left: 25px;
+    right: 50px;
+    top: 1px;
+    bottom: 50px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#Ingredientes8{
+    position: relative;
+    width: 230px;
+    height: 650px;
+    padding: 15px 20px 35px 20px;
+    left: 25px;
+    right: 50px;
+    top: 1px;
+    bottom: 50px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+#Ingredientes9{
+    position: relative;
+    width: 190px;
+    height: 330px;
+    padding: 15px 20px 35px 20px;
+    left: 25px;
+    right: 50px;
+    top: 1px;
+    bottom: 50px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
 #albahaca{
     position: relative;
     width: 175px;
-    height: 170px;
+    height: 165px;
     padding: 15px 20px 35px 20px;
     left: 25px;
     right: 50px;
-    top: 1px;
-    bottom: 5px;
-    background: #D9D9D9;
-    border-radius: 10px;
-    font-family: Roboto;
-    font-size: 4mm;
-    border: 2px solid black;
-}
-
-#salsa1{
-    position: relative;
-    width: 175px;
-    height: 190px;
-    padding: 15px 20px 20px 20px;
-    left: 25px;
-    right: 50px;
-    top: 1px;
-    bottom: 5px;
-    background: #D9D9D9;
-    border-radius: 10px;
-    font-family: Roboto;
-    font-size: 4mm;
-    border: 2px solid black;
-
-}
-
-#varios{
-    position: relative;
-    width: 175px;
-    height: 115px;
-    padding: 15px 20px 35px 20px;
-    left: 25px;
-    right: 50px;
-    top: 1px;
+    top: 16px;
     bottom: 5px;
     background: #D9D9D9;
     border-radius: 10px;
@@ -207,10 +294,10 @@ img {
 #pasoapaso{
     position: relative;
     width: 350px;
-    height: 515px;
+    height: 500px;
     padding: 15px 20px 35px 20px;
-    left: 25px;
-    right: 50px;
+    left: 30px;
+    right: 60px;
     top: 1px;
     bottom: 5px;
     background: #D9D9D9;
@@ -223,11 +310,11 @@ img {
 
 #pasoapaso2{
     position: relative;
-    width: 600px;
-    height: 395px;
+    width: 550px;
+    height: 330px;
     padding: 15px 20px 35px 20px;
-    left: 25px;
-    right: 50px;
+    left: 20px;
+    right: 2px;
     top: 1px;
     bottom: 5px;
     background: #D9D9D9;
@@ -238,10 +325,122 @@ img {
     
 }
 
-#salsa2{
+#pasoapaso3{
+    position: relative;
+    width: 900px;
+    height: 710px;
+    padding: 15px 20px 35px 20px;
+    left: 20px;
+    right: 2px;
+    top: 1px;
+    bottom: 5px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#pasoapaso4{
+    position: relative;
+    width: 850px;
+    height: 350px;
+    padding: 15px 20px 35px 20px;
+    left: 20px;
+    right: 2px;
+    top: 1px;
+    bottom: 5px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#pasoapaso5{
+    position: relative;
+    width: 850px;
+    height: 350px;
+    padding: 15px 20px 35px 20px;
+    left: 20px;
+    right: 2px;
+    top: 1px;
+    bottom: 5px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#pasoapaso6{
+    position: relative;
+    width: 850px;
+    height: 380px;
+    padding: 15px 20px 35px 20px;
+    left: 20px;
+    right: 2px;
+    top: 1px;
+    bottom: 5px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#pasoapaso7{
+    position: relative;
+    width: 950px;
+    height: 250px;
+    padding: 15px 20px 35px 20px;
+    left: 20px;
+    right: 2px;
+    top: 1px;
+    bottom: 5px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#pasoapaso8{
+    position: relative;
+    width: 950px;
+    height: 330px;
+    padding: 15px 20px 35px 20px;
+    left: 20px;
+    right: 2px;
+    top: 1px;
+    bottom: 5px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#pasoapaso9{
+    position: relative;
+    width: 350px;
+    height: 650px;
+    padding: 15px 20px 35px 20px;
+    left: 30px;
+    right: 50px;
+    top: 1px;
+    bottom: 50px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+}
+
+#salsa{
     position: relative;
     width: 270px;
-    height: 550px;
+    height: 500px;
     padding: 15px 20px 35px 20px;
     left: 25px;
     right: 50px;
@@ -254,10 +453,44 @@ img {
     border: 2px solid black;
 }
 
-#presentacion{
+#armado{
     position: relative;
     width: 300px;
     height: 550px;
+    padding: 15px 20px 35px 20px;
+    left: 200px;
+    right: 10px;
+    top: 1px;
+    bottom: 5px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+    
+}
+
+#armado2{
+    position: relative;
+    width: 300px;
+    height: 650px;
+    padding: 15px 20px 35px 20px;
+    left: 35px;
+    right: 10px;
+    top: 1px;
+    bottom: 5px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+    
+}
+
+#presentacion{
+    position: relative;
+    width: 300px;
+    height: 500px;
     padding: 15px 20px 35px 20px;
     left: 25px;
     right: 50px;
@@ -273,8 +506,8 @@ img {
 
 #presentacion2{
     position: relative;
-    width: 380px;
-    height: 390px;
+    width: 350px;
+    height: 330px;
     padding: 15px 20px 35px 20px;
     left: 25px;
     right: 10px;
@@ -286,6 +519,27 @@ img {
     font-size: 4mm;
     border: 2px solid black;
          
+}
+
+#presentacion3{
+    position: relative;
+    width: 200px;
+    height: 650px;
+    padding: 15px 20px 35px 20px;
+    left: 35px;
+    right: 10px;
+    top: 1px;
+    bottom: 5px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 4mm;
+    border: 2px solid black;
+         
+}
+
+div{
+    padding: 10px;
 }
 
 label{
@@ -331,8 +585,8 @@ footer {
     position: center;
     bottom: 0px;
     width: 100%; 
-  
     font-family: 'Roboto';
     margin-top: 20px;
     background-color: rgb(133, 129, 129);
 }
+
