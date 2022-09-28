@@ -121,17 +121,13 @@ img {
 
 #recetas{
     font-family: 'Pacifico';  
-    padding: 20px;  
-    margin-top: 5px; 
-    margin-bottom: 5px;
+    padding: 5 px;  
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    margin-left: 30px;
 }
 
-#tituloreceta{
-    font-family: 'Pacifico';  
-    padding: 20px;  
-    margin-top: 5px; 
-    margin-bottom: 5px;
-}
+
 
 #Ingredientes{
     position: relative;
@@ -592,7 +588,7 @@ footer {
 
 #jorge{
     position: relative;
-    width: 350px;
+    width: 320px;
     height: 400px;
     padding: 0px 0px 0px 0px;
     left: 5px;
@@ -612,7 +608,7 @@ footer {
 
 #mariela{
     position: relative;
-    width: 350px;
+    width: 320px;
     height: 400px;
     padding: 0px 0px 0px 0px;
     left: 5px;
@@ -634,7 +630,7 @@ footer {
 
 #mario{
     position: relative;
-    width: 350px;
+    width: 320px;
     height: 400px;
     padding: 0px 0px 0px 0px;
     left: 5px;
