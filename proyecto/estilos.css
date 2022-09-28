@@ -590,3 +590,64 @@ footer {
     background-color: rgb(133, 129, 129);
 }
 
+#jorge{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    padding: 0px 0px 0px 0px;
+    left: 5px;
+    right: 5px;
+    top: 1px;
+    bottom: 5px;
+    border-radius: 10px;
+           
+}
+
+#textojorge{
+    text-align: center;
+    font-size: x-large;
+    color: #000000;
+    font-family: Roboto;
+}
+
+#mariela{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    padding: 0px 0px 0px 0px;
+    left: 5px;
+    right: 5px;
+    top: 1px;
+    bottom: 5px;
+    border-radius: 10px;
+   
+}
+
+#textomariela{
+    text-align: center;
+    font-size: x-large;
+    color: #000000;
+    font-family: Roboto;
+}
+
+
+
+#mario{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    padding: 0px 0px 0px 0px;
+    left: 5px;
+    right: 5px;
+    top: 1px;
+    bottom: 5px;
+     border-radius: 10px;
+    
+}
+
+#textomario{
+    text-align: center;
+    font-size: x-large;
+    color: #000000;
+    font-family: Roboto;
+}
