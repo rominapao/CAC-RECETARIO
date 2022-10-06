@@ -572,7 +572,11 @@ li{
     height: 25px;
     left: 500px;
     top: 500px;
-
+    background-color: rgb(189, 184, 184);
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    font-size: smaller;
     }
 
 footer {
