@@ -10,48 +10,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 
     <script src="https://kit.fontawesome.com/b9f4c9551e.js" crossorigin="anonymous"></script>
-    <script src="formulario.js"></script>
+    
 
 
     <title>Recetario I NOSTRI.</title>
 
-    <script type="text/javascript">
-        function validar(){
-        var form = document.form;
-
-        if (form.nombre.value==0) {
-            alert("El campo nombre y apellido esta vacío");
-            form.nombre.value = "";
-            form.nombre.focus();
-            return false;
-        }
-
-        if (form.edad.value == 0) {
-            alert("El campo edad esta vacío");
-            form.edad.value = "";
-            form.edad.focus();
-            return false;
-        }
-
-        if (form.correo.value == 0) {
-            alert("El campo email esta vacío");
-            form.correo.value = "";
-            form.correo.focus();
-            return false;
-        }
-
-        if (form.localidad.value == 0) {
-            alert("El campo localidad esta vacío");
-            form.localidad.value = "";
-            form.localidad.focus();
-            return false;
-        }
-
-        alert("Datos enviados con éxito");
-        form.submit();
-
-    }
-
+    <script type="text/javascript" src="formulario.js">
+        
     </script>
 </head>
 
@@ -113,7 +78,7 @@
                  <br>
                      <i class="fa-solid fa-envelope"></i>
                          <label for="email">E-mail
-                             <input id="email" name="correo" placeholder="Ingrese su e-mail">
+                             <input type="email" id="email" size="30" name="correo" placeholder="Ingrese su e-mail" required>
                          </label>
                          <br>
                  <br>
