@@ -7,14 +7,59 @@
     <link rel="icon" href="imagenes/fotocomidas.ico">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
     <script src="https://kit.fontawesome.com/b9f4c9551e.js" crossorigin="anonymous"></script>
+    <script src="formulario.js"></script>
+
 
     <title>Recetario I NOSTRI.</title>
 
+    <script type="text/javascript">
+        function validar(){
+        var form = document.form;
+
+        if (form.nombre.value==0) {
+            alert("El campo nombre y apellido esta vacío");
+            form.nombre.value = "";
+            form.nombre.focus();
+            return false;
+        }
+
+        if (form.edad.value == 0) {
+            alert("El campo edad esta vacío");
+            form.edad.value = "";
+            form.edad.focus();
+            return false;
+        }
+
+        if (form.correo.value == 0) {
+            alert("El campo email esta vacío");
+            form.correo.value = "";
+            form.correo.focus();
+            return false;
+        }
+
+        if (form.localidad.value == 0) {
+            alert("El campo localidad esta vacío");
+            form.localidad.value = "";
+            form.localidad.focus();
+            return false;
+        }
+
+        alert("Datos enviados con éxito");
+        form.submit();
+
+    }
+
+    </script>
 </head>
 
 <body>
-  
+
+    <section id="ContentFormulario">
+    </section>
+
     <div class="contenedor">
         <header>
             <H1 id="Titulo"> Recetario I NOSTRI.
@@ -22,11 +67,10 @@
         </header>
         <br>
         <br>
-    
-    
-        <main>
-            <NAV>
 
+
+        <main>
+            
                 <a href="Paginacomidas.html" id="comidas">
                     <img src="imagenes/fotocomidas.JPG" alt="comidas" id="comidas">
                 </a>
@@ -41,82 +85,56 @@
                     <p id="centro">
                         <link rel="stylesheet" href="estilos.css">
                         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
-                        ~ Comidas ricas y fáciles ~</p>
+                        ~ Comidas ricas y fáciles ~
+                    </p>
                 </h2>
                 <div id="imagencentro">
                     <a href="centro.html" id="comidas">
-                    <img src="./imagenes/personacocinando.JPG" alt="personacocinando" id="persona">
-                </a>
+                        <img src="./imagenes/personacocinando.JPG" alt="personacocinando" id="persona">
+                    </a>
                 </div>
                 <h2 id="novedades" margin: 5px> Suscribite a nuestras novedades y recibí primero nuestra información:
                 </h2>
-                <form action="" method="GET">
-                    <link rel="stylesheet" href="estilos.css">
-                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-                    <ul>
-                        <li class="listas"><i class="fa-solid fa-user"></i>
-                            <label>Nombre y Apellido
-                                <input type="text" name="NombreyApellido" maxlength="50"
-                                    placeholder="Ingrese su nombre y apellido" width="300">
 
-                            </label>
-                        </li>
-                    </ul>
-                </form>
-                <form>
-                    <ul>
-                        <li class="listas"><i class="fa-solid fa-genderless"></i>
+                <form name="form" action="#" method="POST" onsubmit="return validad();">
+        
+                    <i class="fa-solid fa-user"></i>
+                         Nombre y Apellido 
+                         <input type="text" name="nombre" maxlength="50" placeholder="Ingrese su nombre y apellido" width="300"
+                             id="nombre">
+                         
+                             <br>  
+                 <br>
+                    <i class="fa-solid fa-hashtag"></i>
+                         <label for="edad"> Edad
+                             <input type="number" name="edad" min="0" placeholder="Edad" id="edad">
+                         </label>
+                         <br>
+                 <br>
+                     <i class="fa-solid fa-envelope"></i>
+                         <label for="email">E-mail
+                             <input id="email" name="correo" placeholder="Ingrese su e-mail">
+                         </label>
+                         <br>
+                 <br>
+                     <i class="fa-solid fa-location-dot"></i>
+                         <label for="localidad" class="material-symbols-outlined">Localidad
+                             <input id="localidad" name="localidad" placeholder="Ingrese su localidad">
+                         </label>
+                     <br>
+                     <br>
+                     <input type="checkbox" name="recetasvegetarianas" value="recetasvegetarianas">
+                     Quiero recibir recetas vegetarianas
+                 
+                 <button id="boton" onclick="validar();">ENVIAR</button>
+         
+             </form>
 
-                            <label for="Sexo">Sexo
-                                <select id="Sexo" name="Sexo">
-                                    <option value=""></option>
-                                    <option value="Femenino">Femenino</option>
-                                    <option value="Masculino">Masculino</option>
-                                    <option value="X">X</option>
-                                </select>
-                            </label>
-                        </li>
-                    </ul>
-                </form>
-                <form>
-                    <ul>
-                        <li class="listas"><i class="fa-solid fa-hashtag"></i>
-                            <label> Edad
-                                <input type="number" name="Edad" min="0" placeholder="Edad">
-                            </label>
-                        </li>
-                    </ul>
-                </form>
-                <form>
-                    <ul>
-                        <li class="listas"><i class="fa-solid fa-envelope"></i>
-                            <label>E-mail
-                                <input id="E-mail" name="Email" placeholder="Ingrese su e-mail">
-                            </label>
-                        </li>
-                    </ul>
-                </form>
-                <form>
-                    <ul>
-                        <li class="listas"><i class="fa-solid fa-location-dot"></i>
-                            <label class="material-symbols-outlined">Localidad
-                                <input id="Localidad" name="Localidad" placeholder="Ingrese su localidad">
-                            </label>
-                        </li>
-                    </ul>
-                </form>
-                <form>
-                    <label>
-                        <input type="checkbox" name="recetasvegetarianas" value="recetasvegetarianas">
-                        Quiero recibir recetas vegetarianas
-                    </label>
-                    <input type="submit" value="ENVIAR" id="boton">
-                </form>
-
-            </NAV>
+            
         </main>
-    
-   
+
+
+
         <footer align="center">
             <h4><i>Equipo Codo a Codo - 2022</i></h4>
             <iframe width="250" height="50" src="https://www.youtube.com/embed/WZDho9m5USI"

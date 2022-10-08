@@ -127,7 +127,9 @@ img {
     margin-left: 30px;
 }
 
-
+.fijar{
+    margin-top: -135px;
+}
 
 #Ingredientes{
     position: relative;
@@ -538,7 +540,7 @@ div{
     padding: 10px;
 }
 
-label{
+form{
     padding: 10px;
     position: center;
     font-family: 'Roboto';
@@ -547,23 +549,6 @@ label{
     margin-bottom: 10px;
 }
 
-ul{
-    list-style:none;
-    padding:20px;
-    margin-left: 20px;
-    top: 20px;
-    left: 50px;
-    }
-
-li{
-    padding: 3px;
-    text-align: left;
-   }
-
-.listas{
-    display: inline-block;
-    padding: 2px;
-}
 
 #boton{
     padding:3px;
@@ -651,3 +636,4 @@ footer {
     color: #000000;
     font-family: Roboto;
 }
+
