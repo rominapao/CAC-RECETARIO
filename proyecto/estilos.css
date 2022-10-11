@@ -294,7 +294,7 @@ img {
     width: 350px;
     height: 500px;
     padding: 15px 20px 35px 20px;
-    left: 30px;
+    left: 40px;
     right: 60px;
     top: 1px;
     bottom: 5px;
@@ -311,7 +311,7 @@ img {
     width: 550px;
     height: 330px;
     padding: 15px 20px 35px 20px;
-    left: 20px;
+    left: 40px;
     right: 2px;
     top: 1px;
     bottom: 5px;
@@ -327,9 +327,9 @@ img {
     position: relative;
     width: 900px;
     height: 710px;
-    padding: 15px 20px 35px 20px;
-    left: 20px;
-    right: 2px;
+    padding: 20px 20px 35px 20px;
+    left: 40px;
+    right: 60px;
     top: 1px;
     bottom: 5px;
     background: #D9D9D9;
@@ -344,7 +344,7 @@ img {
     width: 850px;
     height: 350px;
     padding: 15px 20px 35px 20px;
-    left: 20px;
+    left: 40px;
     right: 2px;
     top: 1px;
     bottom: 5px;
@@ -360,7 +360,7 @@ img {
     width: 850px;
     height: 350px;
     padding: 15px 20px 35px 20px;
-    left: 20px;
+    left: 40px;
     right: 2px;
     top: 1px;
     bottom: 5px;
@@ -376,7 +376,7 @@ img {
     width: 850px;
     height: 380px;
     padding: 15px 20px 35px 20px;
-    left: 20px;
+    left: 40px;
     right: 2px;
     top: 1px;
     bottom: 5px;
@@ -392,7 +392,7 @@ img {
     width: 950px;
     height: 250px;
     padding: 15px 20px 35px 20px;
-    left: 20px;
+    left: 40px;
     right: 2px;
     top: 1px;
     bottom: 5px;
@@ -408,7 +408,7 @@ img {
     width: 950px;
     height: 330px;
     padding: 15px 20px 35px 20px;
-    left: 20px;
+    left: 40px;
     right: 2px;
     top: 1px;
     bottom: 5px;
@@ -424,7 +424,7 @@ img {
     width: 350px;
     height: 650px;
     padding: 15px 20px 35px 20px;
-    left: 30px;
+    left: 40px;
     right: 50px;
     top: 1px;
     bottom: 50px;
@@ -440,7 +440,7 @@ img {
     width: 270px;
     height: 500px;
     padding: 15px 20px 35px 20px;
-    left: 25px;
+    left: 50px;
     right: 50px;
     top: 1px;
     bottom: 5px;
@@ -473,7 +473,7 @@ img {
     width: 300px;
     height: 650px;
     padding: 15px 20px 35px 20px;
-    left: 35px;
+    left: 50px;
     right: 10px;
     top: 1px;
     bottom: 5px;
@@ -490,7 +490,7 @@ img {
     width: 300px;
     height: 500px;
     padding: 15px 20px 35px 20px;
-    left: 25px;
+    left: 60px;
     right: 50px;
     top: 1px;
     bottom: 5px;
@@ -507,7 +507,7 @@ img {
     width: 350px;
     height: 330px;
     padding: 15px 20px 35px 20px;
-    left: 25px;
+    left: 55px;
     right: 10px;
     top: 1px;
     bottom: 5px;
@@ -524,7 +524,7 @@ img {
     width: 200px;
     height: 650px;
     padding: 15px 20px 35px 20px;
-    left: 35px;
+    left: 60px;
     right: 10px;
     top: 1px;
     bottom: 5px;
@@ -548,6 +548,12 @@ form{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+li{
+    padding: 3px;
+    list-style: none;
+}
+
 
 
 #boton{
