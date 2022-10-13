@@ -43,11 +43,12 @@ a{
 }
 
 img {
+    position: flex;
     border-radius: 50px;
     width:400px;
     height: 200px;
     padding: 20px;
-    margin: 20px;  
+    margin: 20px 15px 20px 20px;
     box-shadow: 2px 2px 5px rgb(75, 71, 71);
 }
 
@@ -91,6 +92,26 @@ img {
     border: 2px solid none;
  }
 
+ #comidas {
+    position: flex;
+    align-items: left;
+    justify-content: left;
+ }
+ 
+ 
+ #singluten {
+    position: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ 
+ #postres {
+    position: flex;
+    align-items: right;
+    justify-content: right;
+ }
+ 
 #centro{
     text-align: center;
     padding: 5px;
@@ -106,6 +127,7 @@ img {
 }
 
 #novedades{
+    position: flex;
     text-align: center;
     padding: 5px;
     margin-top:20px; 
@@ -132,10 +154,11 @@ img {
 }
 
 #Ingredientes{
-    position: relative;
+    position: flex;
     width: 175px;
     height: 500px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 25px;
     right: 50px;
     top: 1px;
@@ -148,10 +171,11 @@ img {
 }
 
 #Ingredientes2{
-    position: relative;
+    position: flex;
     width: 250px;
     height: 710px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 25px;
     right: 50px;
     top: 1px;
@@ -164,10 +188,11 @@ img {
 }
 
 #Ingredientes3{
-    position: relative;
+    position: flex;
     width: 300px;
     height: 350px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 25px;
     right: 50px;
     top: 1px;
@@ -180,10 +205,11 @@ img {
 }
 
 #Ingredientes4{
-    position: relative;
+    position: flex;
     width: 300px;
     height: 350px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 25px;
     right: 50px;
     top: 1px;
@@ -196,10 +222,11 @@ img {
 }
 
 #Ingredientes5{
-    position: relative;
+    position: flex;
     width: 300px;
     height: 380px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 25px;
     right: 50px;
     top: 1px;
@@ -212,10 +239,11 @@ img {
 }
 
 #Ingredientes6{
-    position: relative;
+    position: flex;
     width: 200px;
     height: 250px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 25px;
     right: 50px;
     top: 1px;
@@ -228,10 +256,11 @@ img {
 }
 
 #Ingredientes7{
-    position: relative;
+    position: flex;
     width: 200px;
     height: 330px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 25px;
     right: 50px;
     top: 1px;
@@ -244,10 +273,11 @@ img {
 }
 
 #Ingredientes8{
-    position: relative;
+    position: flex;
     width: 230px;
     height: 650px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 25px;
     right: 50px;
     top: 1px;
@@ -259,10 +289,11 @@ img {
     border: 2px solid black;
 }
 #Ingredientes9{
-    position: relative;
+    position: flex;
     width: 190px;
     height: 330px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 25px;
     right: 50px;
     top: 1px;
@@ -274,10 +305,11 @@ img {
     border: 2px solid black;
 }
 #albahaca{
-    position: relative;
+    position: flex;
     width: 175px;
     height: 165px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 25px;
     right: 50px;
     top: 16px;
@@ -290,10 +322,11 @@ img {
 }
 
 #pasoapaso{
-    position: relative;
+    position: flex;
     width: 350px;
     height: 500px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 40px;
     right: 60px;
     top: 1px;
@@ -307,10 +340,11 @@ img {
 }
 
 #pasoapaso2{
-    position: relative;
+    position: flex;
     width: 550px;
     height: 330px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 40px;
     right: 2px;
     top: 1px;
@@ -324,10 +358,11 @@ img {
 }
 
 #pasoapaso3{
-    position: relative;
+    position: flex;
     width: 900px;
     height: 710px;
     padding: 20px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 40px;
     right: 60px;
     top: 1px;
@@ -340,10 +375,11 @@ img {
 }
 
 #pasoapaso4{
-    position: relative;
+    position: flex;
     width: 850px;
     height: 350px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 40px;
     right: 2px;
     top: 1px;
@@ -356,10 +392,11 @@ img {
 }
 
 #pasoapaso5{
-    position: relative;
+    position: flex;
     width: 850px;
     height: 350px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 40px;
     right: 2px;
     top: 1px;
@@ -372,10 +409,11 @@ img {
 }
 
 #pasoapaso6{
-    position: relative;
+    position: flex;
     width: 850px;
     height: 380px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 40px;
     right: 2px;
     top: 1px;
@@ -388,10 +426,11 @@ img {
 }
 
 #pasoapaso7{
-    position: relative;
+    position: flex;
     width: 950px;
     height: 250px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 40px;
     right: 2px;
     top: 1px;
@@ -404,10 +443,11 @@ img {
 }
 
 #pasoapaso8{
-    position: relative;
+    position: flex;
     width: 950px;
     height: 330px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 40px;
     right: 2px;
     top: 1px;
@@ -420,10 +460,11 @@ img {
 }
 
 #pasoapaso9{
-    position: relative;
+    position: flex;
     width: 350px;
     height: 650px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 40px;
     right: 50px;
     top: 1px;
@@ -436,10 +477,11 @@ img {
 }
 
 #salsa{
-    position: relative;
+    position: flex;
     width: 270px;
     height: 500px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 50px;
     right: 50px;
     top: 1px;
@@ -452,10 +494,11 @@ img {
 }
 
 #armado{
-    position: relative;
+    position: flex;
     width: 300px;
     height: 550px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 200px;
     right: 10px;
     top: 1px;
@@ -469,10 +512,11 @@ img {
 }
 
 #armado2{
-    position: relative;
+    position: flex;
     width: 300px;
     height: 650px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 50px;
     right: 10px;
     top: 1px;
@@ -486,10 +530,11 @@ img {
 }
 
 #presentacion{
-    position: relative;
+    position: flex;
     width: 300px;
     height: 500px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 60px;
     right: 50px;
     top: 1px;
@@ -503,10 +548,11 @@ img {
 }
 
 #presentacion2{
-    position: relative;
+    position: flex;
     width: 350px;
     height: 330px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 55px;
     right: 10px;
     top: 1px;
@@ -520,10 +566,11 @@ img {
 }
 
 #presentacion3{
-    position: relative;
+    position: flex;
     width: 200px;
     height: 650px;
     padding: 15px 20px 35px 20px;
+    margin: 10px 15px 20px 10px;
     left: 60px;
     right: 10px;
     top: 1px;
@@ -582,7 +629,7 @@ footer {
 }
 
 #jorge{
-    position: relative;
+    position: flex;
     width: 400px;
     height: 400px;
     padding: 0px 0px 0px 0px;
@@ -602,7 +649,7 @@ footer {
 }
 
 #mariela{
-    position: relative;
+    position: flex;
     width: 400px;
     height: 400px;
     padding: 0px 0px 0px 0px;
@@ -624,7 +671,7 @@ footer {
 
 
 #mario{
-    position: relative;
+    position: flex;
     width: 400px;
     height: 400px;
     padding: 0px 0px 0px 0px;
