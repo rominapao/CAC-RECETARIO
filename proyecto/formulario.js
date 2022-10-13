@@ -34,3 +34,22 @@
         form.submit();
 
     }
+
+
+const aplicacion = document.querySelector('.contenedor')
+
+const url = 'https://jsonplaceholder.typicode.com/users'
+
+fetch(url)
+.then(res => res.json())
+.then(data => {
+    data.forEach(usuario => {
+      console.log(usuario.nombre) 
+      const p = document.createElement('p') 
+      p.innerHTML = usuario.nombre
+      /*aplicacion.appendChild(p)*/
+    });
+        console.log(data)
+})
+.catch(err => console.log(err))
+
