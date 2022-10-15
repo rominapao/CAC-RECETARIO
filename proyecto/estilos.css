@@ -690,3 +690,81 @@ footer {
     font-family: Roboto;
 }
 
+@media (max-width: 700px) {
+
+    img {
+       
+        display: block;
+        margin: 30px auto;
+    }
+
+    #centro{
+        font-size: 30px;
+    }
+
+    #recetas{
+        text-align: center;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    table{
+        margin: 15px auto;
+    }
+
+    #Ingredientes, #pasoapaso, #salsa, #presentacion, #Ingredientes2, #Ingredientes3, #pasoapaso3, #pasoapaso4,
+    #Ingredientes9, #pasoapaso2, #presentacion2, #Ingredientes4, #pasoapaso5, #Ingredientes5, #pasoapaso6,
+    #Ingredientes6, #pasoapaso7, #Ingredientes8, #pasoapaso9, #armado2, #presentacion3, #Ingredientes7, #pasoapaso8
+    {
+        width: 350px;
+        height: fit-content;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    img {
+       
+        width: 300px;
+        height: 150px;
+        display: block;
+        margin: 15px auto;
+    }
+
+    #centro{
+        font-size: 25px;
+    }
+
+    header{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #persona{
+        width: 250px;
+    }
+
+    #recetas{
+        text-align: center;
+    }
+
+    table{
+        margin: 15px auto;
+    }
+
+    #Ingredientes, #pasoapaso, #salsa, #presentacion, #Ingredientes9, #pasoapaso2, #presentacion2, #Ingredientes2, #pasoapaso3, #Ingredientes3, 
+    #pasoapaso4, #Ingredientes4, #pasoapaso5, #Ingredientes5, #pasoapaso6,  #Ingredientes6, #pasoapaso7, #Ingredientes8, #pasoapaso9, #armado2, #presentacion3,
+    #Ingredientes7, #pasoapaso8
+    {
+        width: 280px;
+        height: fit-content;
+    }
+
+    #jorge, #mariela, #mario{
+        width: 300px;
+        height: auto;
+    }
+}
